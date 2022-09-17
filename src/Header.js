@@ -9,11 +9,11 @@ export default function Header() {
       <h2 id="date-time">Thursday, 12:00PM</h2>
       <h2>Sunny</h2>
       <div className="row">
-        <div className="col-6">
+        <div className="col">
           <img src={pic} alt="sunny" width="100" />
           <h2 id="temp"> 15°F</h2>
         </div>
-        <div className="col-6">
+        <div className="col">
           <ul className="description">
             <li>
               Humidity: <span id="humidity"></span>%
