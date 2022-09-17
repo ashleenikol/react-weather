@@ -1,8 +1,22 @@
 .Weather {
-  max-width: 80%;
+  max-width: 50%;
   border: 1px solid black;
 }
 
 .description {
   list-style: none;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
